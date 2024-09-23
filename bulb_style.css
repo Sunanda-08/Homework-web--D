@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('bg.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bulb {
+    width: 100%;
+    height: 100%;
+    background-image: url('Bulb Off.jpg');
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bulb:hover {
+    background-image: url('Bubl On 2.1.jpg');
+}
